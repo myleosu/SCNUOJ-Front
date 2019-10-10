@@ -25,6 +25,10 @@
       <el-menu-item index="/contest">{{$t('m.Contest_List')}}</el-menu-item>
       <el-menu-item index="/contest/create">{{$t('m.Create_Contest')}}</el-menu-item>
     </el-submenu>
+    <el-submenu index="rejudge_problem">
+      <template slot="title"><i class="el-icon-fa-trophy"></i>重判题目</template>
+      <el-menu-item index="/rejudge">重判题目</el-menu-item>
+    </el-submenu>
   </el-menu>
 </template>
 

@@ -75,14 +75,14 @@ export const m = {
   Sessions: '登录记录',
   Two_Factor_Authentication: '双因素认证',
   // Login.vue
-  LoginUsername: '用户名',
+  LoginUsername: '用户名(学号)',
   LoginPassword: '密码',
   TFA_Code: '双因素认证号码',
   No_Account: '还没账号，立即注册!',
   Forget_Password: '忘记密码',
   UserLogin: '登录',
   // Register.vue
-  RegisterUsername: '用户名',
+  RegisterUsername: '用户名(学号)',
   Email_Address: '电子邮箱',
   RegisterPassword: '密码',
   Password_Again: '确认密码',

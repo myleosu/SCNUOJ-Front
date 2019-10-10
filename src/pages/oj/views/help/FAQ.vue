@@ -3,33 +3,23 @@
     <div slot="title">{{$t('m.Frequently_Asked_Questions')}}</div>
     <div class="content markdown-body">
       <ul>
-        <li>Where is the input and the output?
-          <p>Your program shall read input from <code>stdin</code>('Standard Input') and write output to <code>stdout</code>('Standard Output').
-            For example,you can use <code>scanf</code> in C or <code>cin</code> in C++ to read from stdin,and use <code>printf</code> in C or <code>cout</code> in C++ to write to stdout.
-            User programs are not allowed to read or write files, or you will get a <code>Runtime Error</code>.
+        <li>输入和输出在哪里？
+          <p>您的程序应从<code>stdin</code>（“标准输入”）读取输入，并将输出写入<code>stdout</code>（“标准输出”）。例如，您可以<code>scanf</code>在C或<code>cin</code>C++中使用来从stdin读取，并<code>printf</code>在C或<code>cout</code>C++中使用来写入stdout。不允许用户程序读取或写入文件，否则将显示<code>Runtime Error</code>
           </p>
         </li>
-        <li>What's the meaning of the submission execution time?
-        <p>The onlinejudge might test your code multiple times with different input files.
-          If your code gives the correct answer within the time limit for each input file, the execution time displayed is the max of the time spent for each test case.
-          Otherwise, the execution time will have no sense.
+        <li>提交执行时间是什么意思？
+        <p>SCNUOJ可能会使用不同的输入文件多次测试您的代码。如果您的代码在每个输入文件的时间限制内给出正确的答案，则显示的执行时间是每个测试用例所花费的最大时间。否则，执行时间将毫无意义。
         </p>
         </li>
-        <li>How can I use C++ Int64?
-          <p>You should declare as <code>long long</code> and use with <code>cin/cout</code> or <code>%lld</code>, using<code> __int64</code> will result in <code>Compile Error</code>.</p>
+        <li>如何使用C++ Int64？
+          <p>您应声明<code>long long</code>并与<code>cin/cout</code>或者<code>%lld</code>使用，使用<code>__int64</code>将导致Compile Error。
+	</p>
         </li>
-        <li>Java specifications?
-          <p>All programs must begin in a static main method in a <code>Main</code> class. Do not use public classes: even <code>Main</code> must be non public to avoid compile error.Use buffered I/O to avoid time limit exceeded due to excesive flushing.</p>
+        <li>Java规范？
+          <p>所有程序都必须在类的静态main方法中开始<code>Main</code>。不要使用公共类：甚至<code>Main</code>必须是非公共类以避免编译错误使用缓冲<code>I/O</code>避免由于过度刷新而导致时间限制。</p>
         </li>
-        <li>About presentation error?
-          <p>There is no presentation error in this oj.The judger will trim the blacks and wraps in your ouput's <b>last</b> line.
-            if it's still different with the correct output, the result will be <code>Wrong Answer</code>.</p>
-        </li>
-        <li>How to report bugs about this oj?
-          <p>The onlinejudge is open source, you can open an issue in <a href="https://github.com/QingdaoU/OnlineJudge">Github</a>.
-            The details(like env, version..) about a bug is required, which will help us a lot to solve the bug.
-            Certainly, we are very pleased to merge your pull requests.
-          </p>
+        <li>关于演示错误？
+          <p>该oj中没有显示错误。评委将对黑色进行修整并包裹在输出的最后一行中。如果输出正确还是不一样，结果将是<code>Wrong Answer</code>。</p>
         </li>
       </ul>
     </div>
